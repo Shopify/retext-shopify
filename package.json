@@ -16,7 +16,7 @@
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "dependencies": {
     "array-differ": "^1.0.0",
-    "nlcst-search": "^1.0.0",
+    "nlcst-search": "../nlcst-search",
     "nlcst-to-string": "^1.1.0",
     "object-keys": "^1.0.9",
     "quotation": "^1.0.0"

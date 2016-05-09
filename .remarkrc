@@ -1,12 +1,14 @@
 {
   "output": true,
-  "plugins": [
-    "lint",
-    "github",
-    "comment-config",
-    "slug",
-    "validate-links"
-  ],
+  "plugins": {
+    "lint": {
+      "code-block-style": "fenced"
+    },
+    "github": {},
+    "comment-config": {},
+    "slug": {},
+    "validate-links": {}
+  },
   "settings": {
     "bullet": "*"
   }

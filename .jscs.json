@@ -4,7 +4,9 @@
     "coverage/",
     "node_modules/",
     "retext-equality.js",
-    "retext-equality.min.js"
+    "retext-equality.min.js",
+    "retext-simplify.js",
+    "retext-simplify.min.js"
   ],
   "preset": "yandex",
   "requireQuotedKeysInObjects": true,

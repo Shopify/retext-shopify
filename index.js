@@ -38,7 +38,8 @@ var list = keys(patterns);
  *   - List of phrases to *not* warn about.
  * @return {Function} - `transformer`.
  */
-    function attacher(processor, options) {
+
+function attacher(processor, options) {
     var ignore = (options || {}).ignore || [];
     var phrases = difference(list, ignore);
 
@@ -59,34 +60,32 @@ var list = keys(patterns);
             var message = undefined;
 
             if (!replace.length) {
-                message = value + " is not Shopify style. Avoid using it.";
+                message = value + ' is not Shopify style. Avoid using it.';
 
-                  if (note)
-                      message += " (" + note + ")"
-           }
-            
-            else if (matchedString !== replace){
-                message = value + " is not Shopify style. Use " + newvalue + " instead.";
+                if (note) {
+                    message += ' (' + note + ')';
+                }
+            } else if (matchedString !== replace){
+                message = value + ' is not Shopify style. Use ' + newvalue +
+                    ' instead.';
 
-                  if (note)
-                      message += " (" + note + ")"
+                if (note) {
+                    message += ' (' + note + ')';
+                }
+            } else if (matchedString === replace){
+                return transformer;
             }
 
-            else if (matchedString === replace){
-              return transformer
-            }         
-         
-           if (message)
-            message = file.warn(message, {
-                'start': match[0].position.start,
-                'end': match[match.length - 1].position.end
-            });
-
+            if (message) {
+                message = file.warn(message, {
+                    'start': match[0].position.start,
+                    'end': match[match.length - 1].position.end
+                });
+            }
             message.ruleId = phrase;
             message.source = 'retext-shopify';
-            });
-            }
-
+        }, {'allowApostrophes': false, 'allowDashes': true});
+    }
 
     return transformer;
 }
