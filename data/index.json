@@ -158,5 +158,9 @@
     "drop down menu": {
     "replace": ["drop-down menu"],
     "note": "Hyphenate this term."
-  }
+  },
+    "timeline": {
+    "replace": "Timeline",
+    "note": "Timeline is capitalized."
+    }
 }
