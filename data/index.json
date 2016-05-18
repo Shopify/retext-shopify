@@ -161,6 +161,6 @@
   },
   "timeline": {
     "replace": ["Timeline"],
-    "note": "Timeline is capitalized."
+    "note": "Timeline is capitalized when referring to the feature in Shopify admin."
   }
 }
