@@ -174,9 +174,5 @@
   "timeline": {
     "replace": ["Timeline"],
     "note": "Timeline is capitalized when referring to the feature in the Shopify admin."
-  },
-  "payment gateway": {
-    "replace": ["payment provider"],
-    "note": "Merchants prefer this term even if it is not the industry standard."
   }
 }
