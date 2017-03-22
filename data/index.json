@@ -57,7 +57,7 @@
   },
   "i.e.": {
     "replace": "that is",
-    "note": "Avoid Latin abbreviations."  
+    "note": "Avoid Latin abbreviations."
   },
   "ie.": {
     "replace": "that is",
@@ -93,7 +93,7 @@
   },
   "customise": {
     "replace": "customize",
-    "note": "Use American spelling."  
+    "note": "Use American spelling."
   },
   "centre": {
     "replace": "center",
@@ -106,14 +106,14 @@
   "unfortunately": {
     "replace": [],
     "note": "Be direct and not apologetic."
-  },  
+  },
   "sorry": {
     "replace": [],
     "note": "Be direct and not apologetic."
-  },  
+  },
   "oops": {
     "replace":[],
-    "note": "Be direct and not apologetic."  
+    "note": "Be direct and not apologetic."
   },
   "type in": {
     "replace": "enter",
@@ -174,9 +174,5 @@
   "timeline": {
     "replace": ["Timeline"],
     "note": "Timeline is capitalized when referring to the feature in the Shopify admin."
-  },
-  "payment gateway": {
-    "replace": ["payment provider"],
-    "note": "Merchants prefer this term even if it is not the industry standard."
   }
 }
