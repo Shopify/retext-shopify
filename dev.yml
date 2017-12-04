@@ -3,7 +3,3 @@ name: retext-shopify
 up:
 - node:
     version: v5.7.0
-
-packages:
-  - git@github.com:Shopify/dev-shopify.git
-
