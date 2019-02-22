@@ -57,7 +57,7 @@
   },
   "i.e.": {
     "replace": "that is",
-    "note": "Avoid Latin abbreviations."  
+    "note": "Avoid Latin abbreviations."
   },
   "ie.": {
     "replace": "that is",
@@ -93,7 +93,7 @@
   },
   "customise": {
     "replace": "customize",
-    "note": "Use American spelling."  
+    "note": "Use American spelling."
   },
   "centre": {
     "replace": "center",
@@ -106,14 +106,14 @@
   "unfortunately": {
     "replace": [],
     "note": "Be direct and not apologetic."
-  },  
+  },
   "sorry": {
     "replace": [],
     "note": "Be direct and not apologetic."
-  },  
+  },
   "oops": {
     "replace":[],
-    "note": "Be direct and not apologetic."  
+    "note": "Be direct and not apologetic."
   },
   "type in": {
     "replace": "enter",
@@ -174,5 +174,97 @@
   "timeline": {
     "replace": ["Timeline"],
     "note": "Timeline is capitalized when referring to the feature in the Shopify admin."
+  },
+  "will": {
+      "replace": [],
+      "note": "Use present tense."
+  },
+  "you’ll": {
+      "replace": [],
+      "note": "Use present tense."
+  },
+  "won’t": {
+      "replace": [],
+      "note": "Use present tense."
+  },
+  "in fact": {
+      "replace": [],
+      "note": "Remove filler phrases."
+  },
+  "in order to": {
+      "replace": "to",
+      "note": "Remove filler phrases."
+  },
+  "for the purposes of": {
+      "replace": "to",
+      "note": "Remove filler phrases."
+  },
+  "it is not possible to": {
+      "replace": "you can’t",
+      "note": "Remove filler phrases."
+  },
+  "it’s not possible to": {
+      "replace": "you can’t",
+      "note": "Remove filler phrases."
+  },
+  "in the event that": {
+      "replace": "if",
+      "note": "Remove filler phrases."
+  },
+  "it’s best to": {
+      "replace": [],
+      "note": "Remove filler phrases."
+  },
+  "it is best to": {
+      "replace": [],
+      "note": "Remove filler phrases."
+  },
+  "it’s important to": {
+      "replace": [],
+      "note": "Remove filler phrases."
+  },
+  "it is important to": {
+      "replace": [],
+      "note": "Remove filler phrases."
+  },
+  "Almost entirely": {
+      "replace": [],
+      "note": "Remove filler phrases."
+  },
+  "Aimed at": {
+      "replace": "for",
+      "note": "Remove filler phrases."
+  },
+  "Once": {
+      "replace": ["when", "after"],
+      "note": "Use Style Guide vocabulary."
+  },
+  "viewed": {
+      "replace": "seen",
+      "note": "Use Style Guide vocabulary."
+  },
+  "since": {
+      "replace": "because",
+      "note": "Use Style Guide vocabulary."
+  },
+  "very": {
+      "replace": [],
+      "note": "Remove filler words."
+  },
+  "Adds in": {
+      "replace": "adds",
+      "note": "Remove filler words."
+  },
+  "focussing": {
+      "replace": "focusing",
+      "note": "Use Style Guide spelling."
+  },
+  "focussed": {
+      "replace": "focused",
+      "note": "Use Style Guide spelling."
+  },
+  "countries": {
+      "replace": "countries and regions",
+      "note": "Avoid politics."
   }
 }

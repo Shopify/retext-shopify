@@ -2,4 +2,4 @@
 name: retext-shopify
 up:
 - node:
-    version: v5.7.0
+    version: v6.11.1
