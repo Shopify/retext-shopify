@@ -1,3 +1,5 @@
+> **This repository is no longer maintained.** It has been archived and receives no updates or security fixes. For docs linting, use [Vale](https://vale.sh/).
+
 # Retext-shopify
 
 Warn about Shopify style guide violations with
